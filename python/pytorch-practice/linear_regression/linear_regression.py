@@ -27,14 +27,14 @@ print(targets)
 w = torch.randn(2, 3, requires_grad=True)
 b = torch.randn(2, requires_grad=True)
 
-print(w)
-print(b)
-
 # linear regression model
 def model(x):
 
     # @ present the matrix multiplication
     return x @ w.t() + b
+
+print(w)
+print(b)
 
 # %%
 preds = model(inputs)
@@ -48,7 +48,7 @@ print(targets)
 def mse(t1, t2):
     diff = t1 - t2
 
-    # torch.tensor.numel returns the number of elements in tensor
+    # torch.tensor.numel returns the number of elements
     return torch.sum(diff*diff) / diff.numel()
 
 loss = mse(preds, targets)

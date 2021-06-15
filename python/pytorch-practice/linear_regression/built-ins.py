@@ -57,6 +57,7 @@ from torch.utils.data import DataLoader
 batch_size = 5
 train_dl = DataLoader(train_ds, batch_size, shuffle=True)
 
+
 for xb, yb in train_dl:
     print(xb)
     print(yb)
@@ -115,7 +116,8 @@ def fit(num_epochs, model, loss_fn, opt, train_dl):
             opt.zero_grad()
 
         if(epoch+1) % 10 == 0:
-            print('Epoch [{}/{}], LOSS: {:.4f}'.format(epoch+1, num_epochs, loss.item()))
+            print('Epoch [{}/{}], LOSS: {:.4f}'.format(
+                epoch+1, num_epochs, loss.item()))
 
 # %%
 fit(100, model, loss_fn, opt, train_dl)
