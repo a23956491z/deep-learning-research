@@ -5,6 +5,7 @@ data
 *.gz
 *.zip
 
-.obsidian/workspace 
 
 venv/
+
+notes/.obsidian/workspace
