@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "770de0b4390d1c40",
+    "type": "split",
+    "children": [
+      {
+        "id": "663cfa1ff3a7c292",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "cfe12bf412784791",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7f0c5b101b166aa8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad7f45153280aba3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85ea847527e42522",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e2e5584a365e827",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#logic_circuit",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209,
+    "collapsed": true
+  },
+  "right": {
+    "id": "77bd3edf5e2bda58",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a1e8d5b33eff1df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f39d99c7ad60e88d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2651c34c2597904a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "663cfa1ff3a7c292",
+  "lastOpenFiles": [
+    "Cyber Security/Linux.md",
+    "DevOps/Docker.md",
+    "Cyber Security/Untitled.md",
+    "DevOps/Git.md",
+    "conflict-files-obsidian-git.md",
+    "Programming Tool/Django.md",
+    "Programming Tool/Untitled.md",
+    "Cyber Security/Network Layer.md",
+    "Programming Lang/RISC-V.md",
+    "Programming Lang/Untitled.md"
+  ]
+}
