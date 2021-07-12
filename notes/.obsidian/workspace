@@ -10,14 +10,6 @@
           "type": "empty",
           "state": {}
         }
-      },
-      {
-        "id": "cfe12bf412784791",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
       }
     ],
     "direction": "vertical"
@@ -57,8 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209,
-    "collapsed": true
+    "width": 209
   },
   "right": {
     "id": "77bd3edf5e2bda58",
