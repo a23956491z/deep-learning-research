@@ -4,3 +4,7 @@ data
 *.pkl
 *.gz
 *.zip
+
+.obsidian/workspace 
+
+venv/
