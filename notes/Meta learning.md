@@ -1,4 +1,4 @@
-## Course takedown
+# Course takedown
 Train Example(dataset) -> Learning algorithm
 用dataset 丟進學習的演算法，輸出可以得到一個classifier
 ![](https://i.imgur.com/OyQDct6.png)
@@ -167,6 +167,15 @@ $\phi$ 則是 $m$ 的參數
 * 反向傳播時，導數隨着實線傳播，而drop掉虛線上的導數
 * 因為虛線上的導數被忽略了，所以optimizee的梯度不會被optimizer影響到
 ![](https://i.imgur.com/Xy8wxhL.png)
+
+### LTSM
+全連接RNN的參數和hidden state太多，0000000000000000000000000000000000000000
+> Optimizing at this scale with a fully connected RNN is not feasible as it
+would require a huge hidden state and an enormous number of parameters.
+
+LTSM之間共享parameters，而hidden states不同。
+![](https://i.imgur.com/85KtAmN.png)
+
 
 ## refer
 1. 免費午餐定理： 
