@@ -169,7 +169,7 @@ $\phi$ 則是 $m$ 的參數
 ![](https://i.imgur.com/Xy8wxhL.png)
 
 ### LTSM
-全連接RNN的參數和hidden state太多，0000000000000000000000000000000000000000
+全連接RNN的參數和hidden state太多，
 > Optimizing at this scale with a fully connected RNN is not feasible as it
 would require a huge hidden state and an enormous number of parameters.
 
