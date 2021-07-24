@@ -7,5 +7,14 @@
       ],
       "key": "V"
     }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "+"
+    }
   ]
 }
