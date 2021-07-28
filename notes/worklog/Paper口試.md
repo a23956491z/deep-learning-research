@@ -1,4 +1,6 @@
-
+---
+tags : worklog
+---
 **dynamic Social network prediction就是在做Dynamic Network Link Prediction？**
 
 

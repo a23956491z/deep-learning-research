@@ -1,3 +1,6 @@
+---
+tags : PM worklog
+---
 # Personal meeting 6-17
 ## 上週問題：
 few-shot 的意思：一個類別只用少量個標註sample做訓練

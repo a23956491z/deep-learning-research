@@ -1,3 +1,6 @@
+---
+tags : PM worklog
+---
 # Personal meeting 6-10
 ## 上週問題：
 20個樣本組合成一個task

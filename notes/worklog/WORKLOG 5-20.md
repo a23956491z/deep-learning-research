@@ -1,3 +1,6 @@
+---
+tags : PM worklog
+---
 上週問題：
 The range of BLEU Score？
 ![](https://i.imgur.com/suadtoW.png)

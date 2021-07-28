@@ -1,3 +1,7 @@
+---
+tags : PM worklog
+---
+
 # Personal meeting 7-7
 ## 上週問題：
 無
