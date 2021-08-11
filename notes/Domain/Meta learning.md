@@ -57,3 +57,16 @@ N-ways K-shot classification: In each task, there are **N classes**, each has **
 
 [META Learning 概覽](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
 
+
+### Papers
+meta:
+UNSUPERVISED LEARNING VIA META-LEARNING
+Meta-Learning with Memory-Augmented Neural Networks
+Adversarial Meta-Learning
+
+unsupervised:
+Understanding and Improving Interpolation in  
+Autoencoders via an Adversarial Regularizer
+
+continual:
+Gradient Episodic Memory for Continual Learning
