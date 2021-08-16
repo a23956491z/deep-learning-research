@@ -23,7 +23,10 @@ Preliminary:
 	* Supervised meta-leanring algorithm $\mathcal M$ takes a set of supervised meta-training task $\{\mathcal T_t\}$ as input
 	* Produces a leanring procedure $\mathcal F$, which can injest the supervised training data of a task to produce a classifier $f$
 * Task generation for meta-learning
-	* 
+	* T construct $N$-way classification task $\mathcal T$
+	* sample $N$ classes, sample $R$ datapoints $\{x_r\}_n$ for each of the $N$ classes
+	* sample a permutation of $N$ distinct one-hot vectors $(\mathcal l_n)$ to serve as task-specific labels of N sampled classes
+	* task is defined as $\mathcal T = \{(x_{n,r},l_n) | x_{n,r} \in \{x_r\}_n\}$
 
 Meta learning alg:
 * MAML to learn initial parameters that make a classifier leart a effective generalization from a few gradient steps. 
