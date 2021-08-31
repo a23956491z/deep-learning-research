@@ -34,8 +34,6 @@ paper (*links forward to Notes*)：
 * [x] ～8/17 MAML  : [Completed in (7/28)](https://github.com/a23956491z/deep-learning-research/blob/main/notes/Paper%20notes/MAML.md)(reading paused to checkout the source code)
 * [ ] ～9/01 Matching Network for one shot learning
 * [ ] ～9/15 Survey Meta Learn + Image recognition
-* [ ] THIS YEAR: **Meta** | **Continual** | **Few-shot**  learning
-
 
 Torch (*links forward to source code*)：
 * [x] ～7/28 Logistic Regression : [Completed in (7/24) ](https://github.com/a23956491z/deep-learning-research/blob/main/python/pytorch-practice/pycharm-project/logistic/main.ipynb)
@@ -44,4 +42,8 @@ Torch (*links forward to source code*)：
 
 ## Future Schedule
 - [ ] 9/1 ~ 9/15 Finish MAML code implementation
-- [ ] 9/16 ~ 10/15 ViT coding
+- [ ] 9/16 ~ 10/15 Vision Transformer coding
+- [ ] 10/15 ~ reading meta learning (few-shot) Paper + transformer experiments
+	*  Matching Network
+	*  RegressionNet
+	*  Building CvT based on ViT I build In October
