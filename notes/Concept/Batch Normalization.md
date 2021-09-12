@@ -2,7 +2,15 @@
  
  *internal covariate shift*
  
- ![](https://i.imgur.com/SUFwFaX.png)
+ ![](https://i.imgur.com/IyoeroQ.png)
+(2014 Inception network)
+
+![](https://i.imgur.com/n11i0He.png)
+![](https://i.imgur.com/3iFARWo.png)
+
+
+![](https://i.imgur.com/SUFwFaX.png)
+
 
  Tips:
 * Large learning rate
