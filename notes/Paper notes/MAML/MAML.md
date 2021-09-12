@@ -162,44 +162,6 @@ nearest-neighbor baseline：用KNN做1-shot 5-shot圖像分類
 複雜的特徵提取網路+KNN在few-shot learning的表現
 甚至可以超過諸多設計複雜的state-of-art Meta-Learning模型
 
-## LAB
-### Dataset
-Mini imagenet:
-size : 84x84
-class: 100 : {training:64, val:16, test:20}
-600 imgs per class
-
-Create a dataset:
-What we get?
-* Images & label file
-* label file contains filename and its label
-
-label file example:
-```csv
-	filename,		label
-	img0001.jpg,	n001
-	img0002.jpg,	n002
-```
-
-1. sort files by label
-	* get dictionary like this : 
-	```
-		{
-			'label1' : [
-				'img1', 
-				'img2',...
-			], 
-			'label2' : [
-				'img3',
-				'img4',...
-			],...
-		}
-	```
-2. Creating batch : we need `support_set_batch` and `query_set_batch`
-3. Looping for batch_size times:
-	1. draw `n_way` classes and shuffle
-	2. In each class : draw `k_shot` + `k_query` imgs and shuffle, make first `k_shot` imgs to a list and append  to `support_set`  , others also make to list and append to  `query_set`
-	3. in every batch, append `support_set` to `support_set_batch`, appned `query_set` to `query_set_batch`
 
 
 
