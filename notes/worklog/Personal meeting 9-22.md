@@ -24,12 +24,26 @@ Pytorch:
 ---
 # Paper notes
 
-## Batch Normalization
+## [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf)
 **I found batch norm. have parameters to train!**
 
 ![](https://i.imgur.com/SUFwFaX.png)
 
-[note detail]()
+[note detail](https://github.com/a23956491z/deep-learning-research/blob/main/notes/Concept/Batch%20Normalization.md)
+
+
+## [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf)
+Study on how to scaling up convolution models
+Compound scaling method to uniformly scale network width, depth, resolution
+
+Scaling up ConvNets:
+* Depth : Deep residuallearning  for  image  recognition
+* Width : Wide residual network
+* Resolution :  Efficient training of giantneural networks using pipeline parallelism
+
+## [BigTransfer (BiT)](https://arxiv.org/pdf/1912.11370.pdf)
+
+
 
 ---
 
