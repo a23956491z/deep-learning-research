@@ -53,6 +53,24 @@ using convolution component which is useful in CNN.
 * ResNet design are more efficient than VGG, because strong resolution reduction in early layers with small computation budge
 * so LeViT Use 4 layers of 3x3 convolution to perform resolution reduction
 
+### 2 heads & average pooling
+1. replace classification token by average pooling on the last activation map
+2. train separate heads for **classification** & **distillation**
+3. testing : average the result of 2 heads
+
+### Normalization
+1. original ViT: layer normalization before each attention & MLP
+2. LeViT: convolution followed by a batch normalization
+	- this batch norm. can be merge into convolution in inference, **increase inference time on GPU**
+
+### Activation
+- ViT, Deit: GELU
+- LeViT: Hardswish
+
+### Architecture
+- convolution built as pyramids, **resolution** of activation maps **decreases as channels increase**
+- *shrinking attention block* keeps reduce size of activation map
+
 ## experiment
 preliminary experiment
 * **grafting experiments**of DeiT-S
