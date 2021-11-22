@@ -45,4 +45,5 @@ mmdetection?
 4. RetinaNet
 5. CenterNet
 6. EfficientDet
+	* biFPN + scaling
 7. [DETR](https://arxiv.org/abs/2005.12872)
