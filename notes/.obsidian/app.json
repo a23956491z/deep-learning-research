@@ -8,5 +8,7 @@
     "landscape": true,
     "margin": "0",
     "downscalePercent": 52
-  }
+  },
+  "legacyEditor": false,
+  "livePreview": true
 }
