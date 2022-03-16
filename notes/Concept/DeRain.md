@@ -79,6 +79,7 @@ gridding effect on segmentation
 ground truth, without hybrid, ResNet-DUC-DHC(**from [Understanding Convolution for Semantic Segmentation](https://arxiv.org/pdf/1702.08502.pdf)**)
 
 Hybrid dilated conv:
+* receptive field : 5x5 9x9 13x13
 ![](https://i.imgur.com/n2DBcxR.png)
 Structure of DHC + DUC(**from [Understanding Convolution for Semantic Segmentation](https://arxiv.org/pdf/1702.08502.pdf)**)
 
