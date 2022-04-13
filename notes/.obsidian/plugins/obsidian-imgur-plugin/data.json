@@ -1,1 +1,5 @@
-{"clientId":"d108f335750dc16"}
+{
+  "uploadStrategy": "ANONYMOUS_IMGUR",
+  "clientId": "91b237098409748",
+  "showRemoteUploadConfirmation": false
+}

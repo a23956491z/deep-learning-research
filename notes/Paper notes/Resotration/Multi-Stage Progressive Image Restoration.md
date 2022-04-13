@@ -20,4 +20,18 @@ contirubtion point:
 * ***This paper combine both multi-stage method**
 * use attention module to refine feature
 * aggregate multi-scale feature across stage
-* 
+
+
+## Method
+
+### Multi-stage progressive restoration
+
+* First 2 stage : encoder-decoder subnetwork learns **contextual information**
+* last stage : operates on input image?
+* not simple cascading multiple stage
+	* Add attention module between stages (corss-stage feature fusion)
+
+
+![](https://i.imgur.com/tHE6ivg.png)
+
+

@@ -1,8 +1,8 @@
 [
   "cm-editor-syntax-highlight-obsidian",
   "sliding-panes-obsidian",
-  "obsidian-imgur-plugin",
   "obsidian-git",
   "url-into-selection",
-  "better-word-count"
+  "better-word-count",
+  "obsidian-imgur-plugin"
 ]
