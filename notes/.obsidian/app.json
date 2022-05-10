@@ -5,9 +5,9 @@
   "newFileLocation": "current",
   "pdfExportSettings": {
     "pageSize": "A4",
-    "landscape": true,
+    "landscape": false,
     "margin": "0",
-    "downscalePercent": 52
+    "downscalePercent": 72
   },
   "legacyEditor": false,
   "livePreview": true
