@@ -1,4 +1,3 @@
-
 ## 概覽
 近期**去噪去模糊**模型計算量與PSNR的比較：
 [Simple Baselines for Image Restoration](https://arxiv.org/pdf/2204.04676.pdf)
@@ -11,6 +10,11 @@
 這篇同時提出了一個Restormer的簡易版，**並達到更高的表現**
 
 ![](https://i.imgur.com/G88Goan.png)
+* CA是Channel Attention
+* SCA是作者提出的 simplfied channel attention
+
+不使用ReLu和ReLu（Non-linear activation free）
+![](https://i.imgur.com/vxEsu8d.png)
 
 ### RealRain Dataset
 
@@ -20,7 +24,10 @@
 
 [Spatial Attentive Single-Image Deraining with a High Quality Real Rain Dataset](https://arxiv.org/pdf/1904.01538.pdf)
 
+
+
 ---
+
 
 ## Super-resolution的代表：SwinIR
 
@@ -73,6 +80,10 @@ Pre-training for Low-Level Vision](https://arxiv.org/pdf/2112.10175.pdf)
 ![](https://i.imgur.com/SxZ9gt5.png)
 
 升降維前後都是Conv，只有最中間的Transformer Stage是用Swin Block
+
+1. 這個模型有測試Rain100L和Rain100H的Derain任務
+    * 原本以爲這兩個Dataset是 multi-resolution
+    * 但實際上只有320x480和480x320兩種
 
 ### Super resolution：SwinIR
 [SwinIR: Image Restoration Using Swin Transformer](https://openaccess.thecvf.com/content/ICCV2021W/AIM/papers/Liang_SwinIR_Image_Restoration_Using_Swin_Transformer_ICCVW_2021_paper.pdf)
@@ -130,6 +141,6 @@ Concat後再加上1x1 Conv
 ---
 
 ## 問題
-1. EPT爲什麼能處理不同resolution的data？
-2. 既然SwinIR的效能如此好，能不能利用SwinIR替代Encoder？
+
+1. 既然SwinIR的效能如此好，能不能利用SwinIR替代Encoder？
     * 有人用這樣的非對稱模型嗎？
