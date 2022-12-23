@@ -4,33 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "0b931fb40d666ded",
+        "id": "0de69f2e7d8c2787",
         "type": "tabs",
         "children": [
           {
-            "id": "b983ce93bb7096e7",
+            "id": "130a3f667e54a804",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Paper notes/Detection/Superpixel Fuzzy C-means clustering for image segmentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5246ed83f1422d2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
+                "file": "Project/NAFIR/Experiemnt.canvas",
+                "viewState": {
+                  "x": 26.99021357872826,
+                  "y": -24.25267687485652,
+                  "zoom": -0.23594502311109952,
+                  "snapToGrid": true
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper notes/Detection/Superpixel Fuzzy C-means clustering for image segmentation.md",
+                "file": "Project/NAFIR/Experiemnt.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,8 +111,19 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5246ed83f1422d2",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "130a3f667e54a804",
   "lastOpenFiles": [
+    "Project/NAFIR/NAFIR.md",
+    "Paper notes/Detection/Untitled.canvas",
     "Paper notes/Detection/Superpixel Fuzzy C-means clustering for image segmentation.md",
     "Paper notes/Detection/Fuzzy C-means.md",
     "worklog/Personal meeting 5-11.md",
@@ -127,8 +131,6 @@
     "Python/tensorboard.md",
     "Paper notes/Resotration/Multi-Stage Progressive Image Restoration.md",
     "Python/Pycharm.md",
-    "Concept/DeRain.md",
-    "Pasted image 20220316142658.png",
-    "Pasted image 20220316142309.png"
+    "Concept/DeRain.md"
   ]
 }
