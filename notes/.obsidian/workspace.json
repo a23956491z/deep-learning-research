@@ -22,8 +22,19 @@
                 }
               }
             }
+          },
+          {
+            "id": "8adce8dbf0a976f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +131,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "130a3f667e54a804",
+  "active": "8adce8dbf0a976f9",
   "lastOpenFiles": [
     "Project/NAFIR/NAFIR.md",
     "Paper notes/Detection/Untitled.canvas",
