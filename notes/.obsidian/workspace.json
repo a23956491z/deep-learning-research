@@ -27,20 +27,48 @@
             "id": "8adce8dbf0a976f9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Project/NAFIR/Experiemnt.canvas",
-                "viewState": {
-                  "x": -74.38686922032713,
-                  "y": -111.74609548827003,
-                  "zoom": -0.6066666666666667,
-                  "snapToGrid": true
-                }
+                "file": "Paper notes/Other Model/LambdaNetwork.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "5af1b8d230c401a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper notes/Other Model/Learning to learn by gradient descent by gradient descent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9404d209e84cbdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper notes/Other Model/Matching Network.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "998b62c995ee793d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/NAFIR/Experiemnt.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +164,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8adce8dbf0a976f9",
+  "active": "998b62c995ee793d",
   "lastOpenFiles": [
+    "linFocalLossDense2017.md",
+    "brownLanguageModelsAre2020.md",
+    "Paper notes/test.md",
+    "Paper notes/Other Model/Matching Network.md",
+    "Paper notes/Other Model/Learning to learn by gradient descent by gradient descent.md",
+    "Paper notes/Other Model/LambdaNetwork.md",
+    "Project/NAFIR/Experiemnt.canvas",
     "Project/NAFIR/NAFIR.md",
     "Paper notes/Detection/Untitled.canvas",
-    "Paper notes/Detection/Superpixel Fuzzy C-means clustering for image segmentation.md",
-    "Paper notes/Detection/Fuzzy C-means.md",
-    "worklog/Personal meeting 5-11.md",
-    "Paper notes/Resotration/Comparison.md",
-    "Python/tensorboard.md",
-    "Paper notes/Resotration/Multi-Stage Progressive Image Restoration.md",
-    "Python/Pycharm.md",
-    "Concept/DeRain.md"
+    "Paper notes/Detection/Superpixel Fuzzy C-means clustering for image segmentation.md"
   ]
 }
