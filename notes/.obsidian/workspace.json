@@ -27,9 +27,15 @@
             "id": "8adce8dbf0a976f9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "Project/NAFIR/Experiemnt.canvas",
+                "viewState": {
+                  "x": -74.38686922032713,
+                  "y": -111.74609548827003,
+                  "zoom": -0.6066666666666667,
+                  "snapToGrid": true
+                }
               }
             }
           }
