@@ -46,29 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b9404d209e84cbdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper notes/Other Model/Matching Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "998b62c995ee793d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Paper notes/Other Model/Learning to learn by gradient descent by gradient descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,12 +145,12 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "998b62c995ee793d",
+  "active": "5af1b8d230c401a7",
   "lastOpenFiles": [
+    "Paper notes/Other Model/Matching Network.md",
     "linFocalLossDense2017.md",
     "brownLanguageModelsAre2020.md",
     "Paper notes/test.md",
-    "Paper notes/Other Model/Matching Network.md",
     "Paper notes/Other Model/Learning to learn by gradient descent by gradient descent.md",
     "Paper notes/Other Model/LambdaNetwork.md",
     "Project/NAFIR/Experiemnt.canvas",
